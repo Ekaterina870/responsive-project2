@@ -46,6 +46,7 @@ header a {
 main {
   background-color: white;
 }
+
 main h2 {
   font-weight: 700;
   font-size: 16px;
@@ -63,6 +64,20 @@ main h3 {
   color: #272044;
   margin: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
 main p {
   font-style: normal;
   font-weight: 400;
@@ -73,9 +88,9 @@ main p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 footer {
@@ -128,6 +143,40 @@ footer a {
 }
 .img-responsive {
   max-width: 100%;
+}
+.secondary {
+  background-color: #f8f8f8;
+}
+.text-center {
+  text-align: center;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background-color: white;
+}
+.card-footer {
+  padding: 30px;
+}
+.btn {
+  display: block;
+  color: white;
+  background-color: #462cb3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+
+  text-decoration: none;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 960px) {
