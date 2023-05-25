@@ -156,8 +156,15 @@ footer a {
 .card {
   background-color: white;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
 .card-footer {
   padding: 30px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .btn {
   display: block;
@@ -174,7 +181,7 @@ footer a {
   text-decoration: none;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
   margin-bottom: 15px;
 }
@@ -198,5 +205,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
