@@ -62,7 +62,7 @@ main h3 {
   font-size: 40px;
   line-height: 1.5;
   color: #272044;
-  margin: 0;
+  margin: 18px;
 }
 main h4 {
   font-weight: 700;
@@ -90,7 +90,7 @@ main p {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 70px;
 }
 
 footer {
@@ -186,7 +186,6 @@ footer a {
 .img-responsive-gallery {
   width: 100%;
   display: block;
-
   border-radius: 4px;
   border: 10px solid #ebeaef;
 }
